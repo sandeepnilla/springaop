@@ -7,7 +7,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 @Configuration
 @EnableAspectJAutoProxy
-@ComponentScan(basePackages="org.example.springcore.springaop, org.example.springcore.springexample" )
+@ComponentScan(basePackages="org.example.springcore" )
 public class SpringConfig {
 //	@Bean
 //	public ClassA classA() {
